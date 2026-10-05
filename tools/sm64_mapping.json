@@ -1,0 +1,4 @@
+{
+  "_help": "Run the scan first, then add entries. from = png path inside the sm64 repo, to = path inside the pack, scale = optional integer upscale.",
+  "copy": []
+}

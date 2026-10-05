@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ootcraft",
+  "version": "${version}",
+  "name": "OoTCraft",
+  "description": "Ocarina of Time gameplay inside Minecraft, with an SM64 mode. No Nintendo or Mojang assets are bundled.",
+  "authors": ["you"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ootcraft.OotCraft"],
+    "client": ["com.ootcraft.client.OotCraftClient"]
+  },
+  "mixins": [
+    { "config": "ootcraft.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
